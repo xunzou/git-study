@@ -30,9 +30,15 @@
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>
+github给出的基本使用方法：
+1 mkdir gitRepo #创建文件夹名字
+2 cd gitRepo #进入文件夹
+3 git init  #初始化本地仓库
+4 git add xxx  #添加要push到远程仓库的文件或文件夹（*为全部文件）
+5 git commit -m 'first commit'  #提交文件的注释
+6 git remote add origin https://github.com/yourgithubID/gitRepo.git  #建立远程仓库
+7 git push -u origin master #将本地仓库push到远程仓库
 </code></pre>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
