@@ -30,15 +30,19 @@
           <p>github给出的基本使用方法：</p>
 
           <pre><code>
-          1 mkdir gitRepo #创建文件夹名字
-          2 cd gitRepo #进入文件夹
-          3 git init  #初始化本地仓库
-          4 git add xxx  #添加要push到远程仓库的文件或文件夹（*为全部文件）
-          5 git commit -m 'first commit'  #提交文件的注释
-          6 git remote add origin https://github.com/yourgithubID/gitRepo.git  #建立远程仓库
-          7 git push -u origin master #将本地仓库push到远程仓库
+1 mkdir gitRepo #创建文件夹名字
+2 cd gitRepo #进入文件夹
+3 git init  #初始化本地仓库
+4 git add xxx  #添加要push到远程仓库的文件或文件夹（*为全部文件）
+5 git commit -m 'first commit'  #提交文件的注释
+6 git remote add origin https://github.com/yourgithubID/gitRepo.git  #建立远程仓库
+7 git push -u origin master #将本地仓库push到远程仓库
           </code></pre>
-
+          <p>获取远端的仓库的东西</p>
+          <pre><code>
+1 git clone username@host:/path/to/repository   #克隆远端仓库，这个clone后面的地址可以直接在你的文件下找到；
+2 从上面的第四步开始就行了，一直到第7步
+          </code></pre>
 
         </section>
 
